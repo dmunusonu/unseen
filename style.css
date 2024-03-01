@@ -43,6 +43,7 @@ margin-left: 1rem;
 }
 .nav .nav_left a{
 font-weight: 500;
+text-shadow: 1px 1px 3px #000000;
 
 }
 .nav .nav_left span{
@@ -62,6 +63,7 @@ font-weight: 500;
     margin: 0 20px;
     cursor: pointer;
     position: relative;
+    text-shadow: 1px 1px 3px #000000;
   }
    .nav .nav_right ul li:after{
     content: '';
@@ -85,6 +87,7 @@ font-weight: 500;
 .videobg h2{
   font-size: 100px;
   color: #ffff;
+  text-shadow: 1px 1px 3px #000000;
 }
 .videobg a{
   text-decoration: none;
@@ -94,7 +97,8 @@ display: inline-block;
 border: 2px solid #fff;
 padding: 14px 70px;
 border-radius: 50px;
-margin-top: 20px;
+margin-top: 100px;
+
 }
 
 /* @media(min-aspect-ratio:16/9){
