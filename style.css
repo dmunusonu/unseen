@@ -121,3 +121,24 @@ video{
   bottom: 0;
   object-fit: cover;
 }
+.Cities{
+  background-color: #ffffff;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: "General Sans";
+}
+.Cities .cuttack{
+  width: 320px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 20px 20px 20px 20px;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #000000;
+
+}
+.cuttack a img{
+  width: 320px;
+  position: relative;
+  height: 500px;
+  margin: 0px;
+  
+}
