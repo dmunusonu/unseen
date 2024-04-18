@@ -297,7 +297,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 .footer {
   position: absolute;
-  top: 300%;
+  top: 400%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 1500px;
@@ -487,6 +487,10 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     /* edit here to change the height of the content box */
   transform: translateY(150px);
   transition: transform .25s;
+  a{
+    text-decoration: none;
+    color: black;
+}
 }
 
 .card_content::before {
@@ -526,6 +530,78 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 .card:hover .card_description {
   opacity: 1;
   transition-delay: .25s;
+}
+
+
+.rapper{
+  padding: 10px 10%;
+}
+#card-area{
+  padding: 50px 0;
+}
+.box-area{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.box {
+  width: 80%;
+  height: 110%;
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.box img{
+  width:100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.overlay {
+width: 100%;
+height: 0;
+background: linear-gradient(transparent,#1c1c1c 58%);
+border-radius: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 14px;
+transition: height 0.5s;
+}
+.overlay h3 {
+font-weight: 500;
+margin-bottom: 5px;
+margin-top: 50%;
+color: #fff;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 40px;
+letter-spacing: 2px;
+}
+.overlay a {
+margin-top: 5px;
+color: #262626;
+text-decoration: none;
+font-size: 14px;
+background: #fff;
+border-radius: 50px;
+text-align: center;
+padding: 5px 15px;
+}
+.box:hover img{
+  transform: scale(1.1);
+}
+.box:hover .overlay{
+  height: 100%;
 }
 
 
